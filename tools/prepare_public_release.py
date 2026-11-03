@@ -13,7 +13,7 @@ sys.path.insert(0, str(ROOT))
 from gt3desk import EXE_NAME, __version__
 
 ROOT_FILES = (
-    ".gitignore", ".gitattributes", "LICENSE", "NOTICE", "README.md",
+    ".gitignore", ".gitattributes", "LICENSE", "NOTICE", "README.md", "README.en.md",
     "RELEASE_NOTES.md", "GITHUB_RELEASE.md", "PARAMETER.md", "build.ps1",
     "requirements.txt", "requirements-build.txt", "requirements-lock.txt",
     "credential-format.example.txt", "Segway-Monitor-starten.cmd",

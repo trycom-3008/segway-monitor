@@ -1,10 +1,20 @@
 # Segway Monitor · Release 1.0.0
 
+[Deutsch](README.md) · [English](README.en.md)
+
 Native Windows-Anwendung zum Abrufen der Fahrzeugdaten unterstützter
 Segway/Ninebot-Modelle. Dieses Release unterstützt aktuell NUR den **Segway GT3 D**.
 
-[Windows-Download · Version 1.0.0](https://github.com/trycom-3008/segway-monitor/releases/tag/v1.0.0)
-· [Quellcode](https://github.com/trycom-3008/segway-monitor)
+[Windows-App herunterladen · 1.0.0](https://github.com/trycom-3008/segway-monitor/releases/download/v1.0.0/Segway-Monitor-Windows-v1.0.0.zip)
+· [Release und Prüfsummen](https://github.com/trycom-3008/segway-monitor/releases/tag/v1.0.0)
+· [Feedback und Fehler melden](https://github.com/trycom-3008/segway-monitor/issues)
+
+- **Live-Werte:** Akkustand, Spannung, Geschwindigkeit und weitere Betriebsdaten.
+- **Akku & BMS:** 13 Zellgruppen, Temperaturkanäle und Antworten der Baugruppen.
+- **Verständliche Parameter:** deutsche Namen, Baugruppen, Hover-Texte und Rohdaten.
+- **Export:** Fahrzeugdaten als JSON oder CSV speichern.
+- **Lokaler Zugang:** eigene Schlüssel einmal importieren und automatisch laden.
+- **Open Source:** MIT-Lizenz für den eigenen Anwendungscode.
 
 Benötigt werden ein Windows-PC mit 64 Bit und Bluetooth, den eingeschalteten
 Scooter GT3D und dessen eigener BLE-Schlüssel. Der Schlüsselimport
