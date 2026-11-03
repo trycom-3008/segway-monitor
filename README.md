@@ -1,13 +1,13 @@
 # Segway Monitor · Release 1.0.0
 
 Native Windows-Anwendung zum Abrufen der Fahrzeugdaten unterstützter
-Segway/Ninebot-Modelle. Dieses Release unterstützt den **Segway GT3 D**.
+Segway/Ninebot-Modelle. Dieses Release unterstützt aktuell NUR den **Segway GT3 D**.
 
 [Windows-Download · Version 1.0.0](https://github.com/trycom-3008/segway-monitor/releases/tag/v1.0.0)
 · [Quellcode](https://github.com/trycom-3008/segway-monitor)
 
-Benötigt werden ein Windows-PC mit 64 Bit und Bluetooth, ein eingeschalteter
-unterstützter Scooter und dessen eigener BLE-Schlüssel. Der Schlüsselimport
+Benötigt werden ein Windows-PC mit 64 Bit und Bluetooth, den eingeschalteten
+Scooter GT3D und dessen eigener BLE-Schlüssel. Der Schlüsselimport
 erfolgt einmalig; danach wird der gespeicherte Zugang automatisch geladen.
 
 ## Starten
@@ -27,16 +27,15 @@ wird im allgemeinen Programmpaket nicht mitgeliefert.
 
 ## Parameter und Baugruppen
 
-Die Parameterliste zeigt eine deutsche Bezeichnung, die Baugruppe, Wert,
-Einheit, Antwortstatus und den technischen Namen. Die Suche berücksichtigt auch
+Die Parameterliste zeigt eine Bezeichnung, die Baugruppe, Wert, Einheiten,
+Antwortstatus und den technischen Namen. Die Suche berücksichtigt auch
 Erklärungen und Baugruppennamen. Beim Verweilen des Mauszeigers über einer Zeile
 erscheint ihre Funktionsbeschreibung. Ein Klick öffnet die ausführlichen Details
 unter der Tabelle, einschließlich Register, Zeitstempel und Rohbytes.
 
 Herstellerfelder mit nicht vollständig zugeordneten Einzelcodes erscheinen als
 **Code**, **Bitfeld** oder **Rohwert**. Die Erklärung beschreibt den bekannten
-Funktionsbereich und die verbleibende Unklarheit. Eine Zuordnung aller
-Hersteller-Bits oder unbestätigter physikalischer Einheiten wird nicht vorgetäuscht.
+Funktionsbereich. 
 
 Die vollständige Referenz mit allen 106 Katalogeinträgen steht in `PARAMETER.md`.
 
