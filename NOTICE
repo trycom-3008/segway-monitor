@@ -1,0 +1,26 @@
+Segway Monitor
+Copyright (c) 2026 trycom-3008
+https://github.com/trycom-3008/segway-monitor
+
+Original Segway Monitor application code is licensed under the MIT License.
+Third-party software and derived material retain their original licenses.
+Original license texts and notices are included in the licenses directory.
+
+Protocol and register references:
+- scootscoot, Copyright 2026 Andy Shinn, Apache License 2.0
+  https://github.com/andyshinn/scootscoot
+- segway-ninebot-ble and segway-ninebot-ble-cli,
+  Copyright 2026 NootNooot, Apache License 2.0
+  https://codeberg.org/NootNooot/segway-ninebot-ble
+  https://codeberg.org/NootNooot/segway-ninebot-ble-cli
+
+The register catalogue, device profile and owner-handshake adaptation were
+written for Segway Monitor using these protocol and implementation references.
+The application adds a native Windows interface, German parameter explanations,
+model filtering, telemetry presentation, exports and local credential storage.
+The bundled scootscoot library is used without modifications.
+
+This is an independent, unofficial application. It is not affiliated with,
+authorized by, endorsed by or sponsored by Segway Inc., Ninebot or their
+related entities. Segway and Ninebot are trademarks of their respective
+owners, used to identify compatible hardware.
